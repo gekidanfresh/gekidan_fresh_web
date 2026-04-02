@@ -123,6 +123,7 @@ main h2 {
 .latest-text ul {
     margin-top: 0;
 }
+
 .latest-info img {
     margin-top: 20px;
     width: 100%;
@@ -176,6 +177,21 @@ main h2 {
     gap: 40px;
 }
 
+/* April seventh */
+.April-seventh {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.April-seventh img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
 /* モバイル対応 */
 @media (max-width: 767px) {
     .nav ul {
@@ -204,6 +220,24 @@ main h2 {
     /* works summary */
     .work-contents {
         flex-direction: column;
+    }
+
+    /* news.html */
+    .info-list {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* April-seventh */
+    .April-seventh {
+        flex-direction: column;
+    }
+
+    .April-seventh img {
+        max-width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
 }

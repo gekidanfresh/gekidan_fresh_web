@@ -184,13 +184,6 @@ main h2 {
     gap: 40px;
 }
 
-.April-seventh img {
-    margin-top: 20px;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
 
 /* モバイル対応 */
 @media (max-width: 767px) {
